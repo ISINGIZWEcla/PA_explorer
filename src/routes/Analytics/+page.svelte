@@ -36,7 +36,7 @@
         { name: "Bethlehem", lat: 40.6259, lon: -75.3705 },
         { name: "Scranton", lat: 41.4089, lon: -75.6624 },
     ];
-    const apiKey = "11a4856b48b9a34c6dda9178f07a308e";
+    const apiKey = "6db2c3a1eeaf702a7ab3d756f7a63a15";
 
     async function fetchYearlyData() {
         try {
