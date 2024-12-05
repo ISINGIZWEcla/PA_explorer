@@ -108,7 +108,7 @@ ${
         now.setDate(now.getDate() + selectedDay);
         const timestamp = Math.floor(now.getTime() / 1000);
 
-        const url = `https://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lon}&start=${timestamp}&end=${timestamp + 86400}&appid=11a4856b48b9a34c6dda9178f07a308e`;
+        const url = `https://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lon}&start=${timestamp}&end=${timestamp + 86400}&appid=6db2c3a1eeaf702a7ab3d756f7a63a15`;
 
         try {
             const response = await fetch(url);
